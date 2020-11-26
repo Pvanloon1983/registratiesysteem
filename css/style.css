@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:ital@0;1&display=swap');
+
+/*Algemeen*/
+
+* {
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+}
+
+/*Index Pagina*/
+
+/* Full page background CSS */
+.body-index {
+  background: url('') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container-index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.title-index-page {
+  color: #333;
+  font-family: 'Lobster', cursive;
+  font-size: 60px;
+}
+
+.keuze-hulp-index {
+  margin-top: 15px;
+}
+
+.btn-index {
+  margin: 5px;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+}
+
+/*
+* Registratie pagina
+*/
+
+/* Full page background CSS */
+.body-reg {
+  background: url('') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container-reg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.title-reg-page {
+  color: #333;
+  font-family: 'Lobster', cursive;
+  font-size: 40px; 
+  margin-bottom: 20px; 
+}
+
+#reg-form{
+  width: 100%;
+  max-width: 400px;  
+}
+
+#reg-form label {
+  color: #333;
+  opacity: 0.7;
+}
+
+#btn-registreren{
+  margin-top: 30px;
+  border: none;
+  background: #8E2DE2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 10px 0px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.error_input {
+  color: red;
+}
+
+.link-registreren {
+  color: #74da4a;
+}
+
+.link-registreren:hover {
+  color: #75c754;
+  text-decoration: none;
+}
+
+.al-ingelogd-p {
+  margin-bottom: 50px;
+}
+
+/* Inlog pagina */
+
+/* Full page background CSS */
+.body-inlog {
+  background: url('') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container-inlog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.title-inlog-page {
+  color: #333;
+  font-family: 'Lobster', cursive;
+  font-size: 40px; 
+  margin-bottom: 20px; 
+}
+
+#inlog-form{
+  width: 100%;
+  max-width: 400px;  
+}
+
+#inlog-form label {
+  color: #333;
+  opacity: 0.7;
+}
+
+#btn-inloggen{
+  margin-top: 10px;
+  border: none;
+  background: #8E2DE2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 10px 0px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.error_input {
+  color: red;
+}
+
+.link-inloggen {
+  color: #74da4a;
+}
+
+.link-inloggen:hover {
+  color: #75c754;
+  text-decoration: none;
+}
+
+.al-geregistreerd-p {
+  margin-bottom: 50px;
+}
+.wachtwoord-vergeten-link a {
+  color:#3498db;
+  text-decoration: none;
+}
+
+/* Wachtwoord vergeten pagina */
+/* Full page background CSS */
+.body-wwvergeten {
+  background: url('') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container-wwvergeten {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.title-wwvergeten-page {
+  color: #333;
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+#wwvergeten-form{
+  width: 100%;
+  max-width: 400px;  
+}
+
+#wwvergeten-form label {
+  color: #333;
+  opacity: 0.7;
+}
+
+#btn-wwvergeten{
+  margin-top: 10px;
+  border: none;
+  background: #8E2DE2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 10px 0px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.error_input {
+  color: red;
+}
+
+/* Wachtwoord herstel pagina */
+
+/* Full page background CSS */
+.body-wwherstellen {
+  background: url('') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container-wwherstellen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.title-wwherstellen-page {
+  color: #333;
+  font-family: 'Lobster', cursive;
+  font-size: 40px; 
+  margin-bottom: 20px; 
+}
+
+#wwherstellen-form{
+  width: 100%;
+  max-width: 400px;  
+}
+
+#wwherstellen-form label {
+  color: #333;
+  opacity: 0.7;
+}
+
+#btn-wwherstellen{
+  margin-top: 30px;
+  border: none;
+  background: #8E2DE2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 10px 0px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.error_input {
+  color: red;
+}
+
+.link-wwherstellen {
+  color: #74da4a;
+}
+
+.link-wwherstellen:hover {
+  color: #75c754;
+  text-decoration: none;
+}
+
+.al-ingelogd-p {
+  margin-bottom: 50px;
+}
+
+/* Loader */
+.loader img{
+  margin-left: 10px;
+  width: 20px;
+}
+
+.loader {
+  display: none;
+}
+
+.label-wwzien{
+  cursor: pointer;
+}
+
+.label-wwzien input{
+  cursor: pointer;
+}
+
+
+
+
+// background: #8E2DE2;  /* fallback for old browsers */
+// background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+// background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */

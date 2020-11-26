@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Gegenereerd op: 26 nov 2020 om 01:19
+-- Gegenereerd op: 27 nov 2020 om 00:06
 -- Serverversie: 10.4.14-MariaDB
 -- PHP-versie: 7.4.10
 
